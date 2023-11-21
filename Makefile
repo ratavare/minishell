@@ -6,17 +6,13 @@ CC			=		cc
 
 CFLAGS		=		-Wall -Wextra -Werror -g
 
-INCLUDES	=		-I$(HEADERS_DIRECTORY) -I$(LIBFT_HEADERS) -I$(FT_PRINTF_HEADERS)
+INCLUDES	=		-I$(HEADERS_DIRECTORY)
 
 HEADERS_DIRECTORY = ./includes/
 
 LIBFT		=		./libft/libft.a
-LIBFT_INCLUDES =	../libft/libft.h
-LIBFT_HEADERS = 	$(LIBFT_INCLUDES)
 
 FT_PRINTF		=		./libft/ft_printf/libftprintf.a
-FT_PRINTF_INCLUDES=		./libft/ft_printf/srcs/ft_printf
-FT_PRINTF_HEADERS =		$(FT_PRINTF_INCLUDES)
 
 GNL			=		./libft/get_next_line/*.c
 
